@@ -1,22 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {ClickOutsideModule} from 'ng-click-outside';
 
 
 import { AppComponent } from './app.component';
+import { SliderComponent } from './slider/slider.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeSection1Component } from './home-section-1/home-section-1.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    SliderComponent,
     HeaderComponent,
-    HomeSection1Component
+    SignInComponent,
+    HomePageComponent,
+    SearchComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule, ClickOutsideModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('nyangular-app App', () => {
+describe('hair-b2-b App', () => {
   let page: AppPage;
 
   beforeEach(() => {

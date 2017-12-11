@@ -1,3 +1,16 @@
+.bg-head{
+  background-color: black;
+  height: auto;
+}
 
+.list{
+  padding-bottom: 10px;
+}
+
+.li-clr{
+  color: white;
+  text-decoration: none;
+  size: 14px;
+}
 
 
